@@ -21,7 +21,7 @@ rteEl.forEach(function (element) {
 
     // Create a new list item for the h2 element
     const listItem = document.createElement("li");
-    listItem.classList.add("scroll-spy__item");
+    listItem.classList.add("scroll-spy__item", "faq__item");
 
     // Create a new anchor element and set its href attribute to the id
     const anchor = document.createElement("a");
