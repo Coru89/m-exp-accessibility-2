@@ -259,6 +259,11 @@
     transition-type="{{ section.settings.transition_type | escape }}"
     class="slideshow slideshow--{{ section.settings.section_height }}"
   >
+    {%- if section.blocks.size > 1 -%}
+      <p class="visually-hidden">This is a carousel with auto-rotating slides. Jump to a slide with the slide indicator lines.</p>
+      {% else %}
+      <p class="visually-hidden">This is large image panel with a text overlay.</p>
+    {% endif %}
     <div class="slideshow__slide-list">
       {%- for block in section.blocks -%}
         {%- comment -%}
