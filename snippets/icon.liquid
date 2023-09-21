@@ -8,7 +8,7 @@
       </svg>
 
     {%- when 'nav-arrow-right' -%}
-      <svg focusable="false" width="{{ width | default: 17 }}" height="{{ height | default: 14 }}" class="{{ icon_class }}" viewBox="0 0 17 14">
+      <svg aria-hidden="{{ aria_hidden | default: false }}" focusable="false" width="{{ width | default: 17 }}" height="{{ height | default: 14 }}" class="{{ icon_class }}" viewBox="0 0 17 14">
         <path d="M0 7h15M9 1l6 6-6 6" stroke="currentColor" stroke-width="{{ settings.icon_stroke_width }}" fill="none"></path>
       </svg>
 
