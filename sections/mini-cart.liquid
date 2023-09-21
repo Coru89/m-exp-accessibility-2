@@ -2,7 +2,7 @@
   <span class="drawer__overlay"></span>
 
   <header class="drawer__header">
-    <p class="drawer__title heading h6">
+    <h2 class="drawer__title heading h6">
       {%- case settings.cart_icon -%}
         {%- when 'shopping_bag' -%}
           {%- render 'icon' with 'header-cart' -%}
@@ -19,7 +19,7 @@
       {%- else -%}
         {{- 'cart.general.item_count' | t: count: cart.item_count -}}
       {%- endif -%}
-    </p>
+    </h2>
 
     <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
       {%- render 'icon' with 'close' -%}
