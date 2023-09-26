@@ -460,7 +460,7 @@
       "custom_css": [
         "a.product-item__aspect-ratio.aspect-ratio {aspect-ratio: unset;}",
         "img.product-item__primary-image {max-height: 230px; object-fit: cover; position: relative;}",
-        ".product-item__image-wrapper {max-height: 235px; }",
+        ".product-item__image-wrapper {max-height: 235px;}",
         ".variant-collection {padding-bottom: 40px;}",
         ".vertical-breather {padding-top: 24px;}",
         "@media screen and (min-width: 940px) {.vertical-breather {padding-top: var(--vertical-breather); }}",
@@ -885,7 +885,7 @@
             "image": "shopify:\/\/shop_images\/Business_lens_clear_3qtr.68.png",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
-            "title": "Clear<br>Coming Soon",
+            "title": "Clear",
             "link_text": "",
             "link_url": "\/pages\/lenses#business",
             "link_style": "link",
